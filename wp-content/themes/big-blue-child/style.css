@@ -1,0 +1,24 @@
+/*
+ Theme Name:   Kim's child theme
+ Author:       Kim
+ Description:  This is the first theme created by John a child theme of WordPress' Twenty Seventeen theme
+ Template:     big-blue-child
+*/
+.page-id-36 .entry-content p{
+	color: red;
+}
+body.home {
+	color: green;
+}
+.page-template-page-about .site{
+	background: green;
+}
+.page-id-80 .entry-content ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-id-80 .entry-content ul li{
+	width: 30%;
+	display: inline-block;
+}
