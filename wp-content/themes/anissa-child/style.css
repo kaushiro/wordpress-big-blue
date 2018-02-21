@@ -1,0 +1,155 @@
+/*
+ Theme Name:   Kim's anissa child theme
+ Author:       Kim
+ Description:  This is the first theme created by John a child theme of WordPress' Twenty Seventeen theme
+ Template:     anissa
+*/
+
+/*HEADER*/
+#primary-menu li {
+	font-weight: bold;
+}
+.site-branding {
+    border-top: 20px solid #343434;	
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.site-branding img{
+	margin-top: 0px;
+    width: 50px;
+    height: 50px;	
+}
+.site-description {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*HOME PAGE*/
+.post-36 #all-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	width: 60%;
+	margin: 0 auto;
+}
+.page-id-36 .post-36 img{
+	margin-top: 0px;
+    width: 200px;
+    height: 200px;		
+}
+.page-id-36 .post-36 .wp-image-165{
+    width: 180px;
+    height: 180px;		
+}
+.page-id-36 .post-36 .wp-image-130{
+    width: 180px;
+    height: 180px;		
+}
+.page-id-36 .post-36 .wp-image-167{
+    width: 180px;
+    height: 180px;		
+}
+.page-id-36 .post-36 .wp-image-136{
+    width: 180px;
+    height: 180px;		
+}
+
+
+
+/*ABOUT ME*/
+div.entry-content.page-content p {
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+
+
+
+/*CODEPEN PAGE*/
+.page-id-80 .entry-content ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 0%;
+}
+
+.page-id-80 .entry-content ul li{
+	width: 33%;
+	display: inline-block;
+}
+.page-id-80 .entry-content ul figure{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.page-id-80 #recent-posts-2 {
+	display: none;
+}
+#main {
+	width: 100%;
+}
+.page-content {
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+	
+}
+
+/*CONTACT PAGE*/
+.page-id-42 input {
+	border: 2px solid black;
+}
+.page-id-42 textarea {
+	border: 2px solid black;
+}
+.page-id-42 input[type="submit"] {
+	font-weight: bold;
+
+}
+
+
+/*FOOTER*/
+
+.footer-widgets .widget-area {
+	width: 33%;
+	display: inline-block;
+
+}
+
+footer .widget-title {
+    margin-top: 30px;
+}
+footer h1 {
+    /*text-transform: uppercase;*/
+    font-size: 3em;
+    font-weight: 600;
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+
+#menu-social-media-left {
+	display: flex;
+	justify-content: space-around;
+}
+#menu-social-media-right {
+	display: flex;
+	justify-content: space-around;
+}
+#menu-social-media-left li{
+	width: 30%;
+	display: inline-block;
+	border-top: none;
+}
+#menu-social-media-left li{
+	width: 30%;
+	display: inline-block;
+	border-top: none;
+}
+
+
+
+div.site-info {
+	display: none;
+}

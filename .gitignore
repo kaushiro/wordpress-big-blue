@@ -105,5 +105,5 @@ wp-content/plugins/*
 # ignore everything in the "themes" directory,
 wp-content/themes/*
 # except our custom theme
-!wp-content/themes/big-blue-child/
+!wp-content/themes/anissa-child/
 
